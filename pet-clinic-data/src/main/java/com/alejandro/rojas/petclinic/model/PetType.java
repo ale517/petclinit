@@ -1,4 +1,4 @@
-package com.alejandro.rojas.petclinit.model;
+package com.alejandro.rojas.petclinic.model;
 
 public class PetType {
 

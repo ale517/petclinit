@@ -1,4 +1,4 @@
-package com.alejandro.rojas.petclinit;
+package com.alejandro.rojas.petclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
