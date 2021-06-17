@@ -8,8 +8,9 @@ import java.util.Map;
 import java.util.Set;
 
 public abstract class AbstractMapService <T, ID> implements CrudService<T,ID> {
-    protected Map<ID, T>  map= new HashMap<>();
-    
+
+    protected Map<ID, T>  map = new HashMap<>();
+
     @Override
     public Set<T> findAll() {
         return new HashSet<>(map.values());
