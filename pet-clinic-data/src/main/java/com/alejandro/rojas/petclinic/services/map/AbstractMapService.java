@@ -25,10 +25,6 @@ public abstract class AbstractMapService <T, ID> implements CrudService<T,ID> {
         return object;
     }
 
-    public void deleteByID(ID id){
-        map.remove(id);
-    }
-
     public void delete(T object) {
         map.entrySet().removeIf(entry -> entry.getValue().equals(object));
     }
